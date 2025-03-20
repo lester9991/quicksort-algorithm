@@ -1,2 +1,2 @@
 @echo off
-quicksort input.txt output.bin
+quicksort input.txt output.bin " "

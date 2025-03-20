@@ -27,9 +27,10 @@ int main(int argc, char  **argv){
     char temp;
     int j = 0;
     //store the values from the file into variable:array
+    char *arg3 = argv[3];
     for(int i = 0;i<size;i++){
         fscanf(fptr,"%c",&temp);
-        if(temp!=' '){
+        if(temp!=*arg3){
             stringInt[j] = temp;
             j++;
         }
