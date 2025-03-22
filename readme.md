@@ -1,4 +1,4 @@
-This is my iteration on the quicksortt algorith along with extra functionalities
+This is my iteration on the quicksort algorith along with extra functionalities
 
 How it works:
 
